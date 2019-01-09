@@ -1,0 +1,115 @@
+body
+{
+	margin: 0 auto;
+	margin-top: 64px;
+	max-width: 1024px;
+}
+
+.menu
+{
+	position: fixed;
+	top: 2px;
+}
+
+.menu_cell
+{
+	width: 25%;
+	background-color: lightgrey;
+	border: 1px solid darkgrey;
+	border-radius: 4px;
+	box-shadow: 1px 1px 1px lightgrey;
+}
+
+.menu_cell:hover
+{
+	background-color: grey;
+	box-shadow: 1px 1px 4px black inset;
+}
+
+.menu_link
+{
+	text-decoration: none;
+}
+
+.menu_text
+{
+	font-family: Arial;
+	font-size: 24px;
+	color: white;
+	font-style: normal;
+}
+
+.article_title, .article_subtitle
+{
+	font-family: Papyrus;
+}
+
+.article_text
+{
+	font-family: Arial;
+	text-align: justify;
+}
+
+.article_image
+{
+	margin: 4px;
+	width: 200px;
+}
+
+.article_image_left
+{
+	float: left;
+}
+
+.article_image_right
+{
+	float: right;
+}
+
+.info
+{
+	margin: 0 auto;
+	margin-top: 32px;
+	margin-bottom: 32px;
+	max-width: 480px;
+}
+
+.info_div
+{
+	background: lightgrey;
+}
+
+.info_cell
+{
+	max-width: 160px;
+	min-width: 100px;
+	width: 33%;
+	
+	font-family: Arial;
+	font-size: 12px;
+}
+
+.info_image
+{
+	width: 64px;
+}
+
+.announcment
+{
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	max-width: 1022px;
+	height: 16px;
+	background: lightgrey;
+	border: 1px solid darkgrey;
+	margin: 0px;
+}
+
+@media screen and (max-width: 540px)
+{
+	.menu_text, .article_image
+	{
+		display: none;
+	}
+}
